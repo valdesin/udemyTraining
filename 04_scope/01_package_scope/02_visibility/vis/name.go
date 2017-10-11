@@ -1,4 +1,4 @@
 package vis
 
-var myName = "Vlad"
+var MyName = "Vlad"
 var yourName = "Future rock star Programmer"

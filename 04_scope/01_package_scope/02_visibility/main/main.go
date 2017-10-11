@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/valdesin/udemyTraining/04_scope/01_package_scope/02_visibility/vis"
+)
 
 func main() {
-	fmt.Println()
+	fmt.Println(vis.MyName)
+	vis.PrintVar()
 }
